@@ -1,0 +1,63 @@
+--------------------Configuration: krisa - Win32 Release--------------------
+Begining build with project "E:\_MyProjects\base\krisa.dsp", at root.
+Active configuration is Win32 (x86) Application (based on Win32 (x86) Application)
+
+Project's tools are:
+			"32-bit C/C++ Compiler for 80x86" with flags "/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /Fp"Release/krisa.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c "
+			"OLE Type Library Maker" with flags "/nologo /D "NDEBUG" /mktyplib203 /o /win32 "NUL" "
+			"Win32 Resource Compiler" with flags "/l 0x419 /fo"Release/krisa.res" /d "NDEBUG" "
+			"Browser Database Maker" with flags "/nologo /o"Release/krisa.bsc" "
+			"COFF Linker for 80x86" with flags "winmm.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/ps.pdb" /machine:I386 /out:"Release/ps.exe" "
+			"Custom Build" with flags ""
+			"<Component 0xa>" with flags ""
+
+Creating temp file "F:\DOCUME~1\¿ƒÃ»Õ»~1.AST\LOCALS~1\Temp\RSP197.tmp" with contents </nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /Fp"Release/krisa.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\_MyProjects\base\m.cpp"
+>
+Creating command line "cl.exe @F:\DOCUME~1\¿ƒÃ»Õ»~1.AST\LOCALS~1\Temp\RSP197.tmp" 
+Creating command line "link.exe winmm.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/ps.pdb" /machine:I386 /out:"Release/ps.exe"  .\Release\m.obj .\Release\krisa.res" 
+Compiling...
+m.cpp
+E:\_MyProjects\base\myclasses.h(59) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+E:\_MyProjects\base\myclasses.h(98) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+E:\_MyProjects\base\myclasses.h(98) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+E:\_MyProjects\base\myclasses.h(129) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+E:\_MyProjects\base\myclasses.h(129) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+E:\_MyProjects\base\myclasses.h(239) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+E:\_MyProjects\base\myclasses.h(239) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+E:\_MyProjects\base\myclasses.h(240) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+E:\_MyProjects\base\myclasses.h(240) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+E:\_MyProjects\base\myclasses.h(241) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+E:\_MyProjects\base\myclasses.h(241) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+E:\_MyProjects\base\myclasses.h(242) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+E:\_MyProjects\base\myclasses.h(242) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+E:\_MyProjects\base\myclasses.h(251) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+E:\_MyProjects\base\myclasses.h(251) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+E:\_MyProjects\base\myclasses.h(252) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+E:\_MyProjects\base\myclasses.h(252) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+E:\_MyProjects\base\myclasses.h(253) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+E:\_MyProjects\base\myclasses.h(253) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+E:\_MyProjects\base\myclasses.h(254) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+E:\_MyProjects\base\myclasses.h(254) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+E:\_MyProjects\base\myclasses.h(257) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+E:\_MyProjects\base\myclasses.h(257) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+E:\_MyProjects\base\threads.h(84) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+E:\_MyProjects\base\threads.h(85) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+E:\_MyProjects\base\threads.h(106) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+E:\_MyProjects\base\threads.h(118) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+E:\_MyProjects\base\threads.h(166) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+E:\_MyProjects\base\threads.h(185) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+E:\_MyProjects\base\threads.h(222) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+E:\_MyProjects\base\threads.h(223) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+E:\_MyProjects\base\threads.h(255) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+E:\_MyProjects\base\threads.h(267) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+E:\_MyProjects\base\threads.h(357) : warning C4244: '-=' : conversion from 'double' to 'float', possible loss of data
+E:\_MyProjects\base\threads.h(358) : warning C4305: '-=' : truncation from 'const double' to 'float'
+E:\_MyProjects\base\threads.h(362) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\_MyProjects\base\threads.h(363) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\_MyProjects\base\m.cpp(176) : warning C4101: 'p' : unreferenced local variable
+Linking...
+
+
+
+ps.exe - 0 error(s), 38 warning(s)
